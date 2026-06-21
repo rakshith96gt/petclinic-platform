@@ -7,14 +7,17 @@
     "allow": [
       "Bash(git init *)",
       "Bash(git checkout *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "PowerShell(Start-Process -FilePath \"C:\\\\Users\\\\ganas\\\\AppData\\\\Local\\\\Microsoft\\\\WinGet\\\\Packages\\\\Hashicorp.Terraform_Microsoft.WinGet.Source_8wekyb3d8bbwe\\\\terraform.exe\" -ArgumentList \"force-unlock 6fcc3a08-7959-f643-9455-dec8c929e468\" -WorkingDirectory \"C:\\\\Users\\\\ganas\\\\OneDrive\\\\Desktop\\\\project\\\\spring-petclinic\\\\petclinic-platform\\\\terraform\\\\environments\\\\dev\" -Wait -NoNewWindow)"
     ]
   },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "awslabs.terraform-mcp-server",
     "aws-knowledge-mcp",
     "awslabs.aws-pricing-mcp-server",
     "context7",
-    "atlassian"
+    "atlassian",
+    "terraform"
   ]
 }
